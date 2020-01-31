@@ -38,13 +38,13 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is the purpose of using _sessions_?
+- [ ] What is the purpose of using _sessions_? Sessions used to provide persistant data for request.
 
-- [ ] What does bcrypt do to help us store passwords in a secure manner?
+- [ ] What does bcrypt do to help us store passwords in a secure manner? bcrypt creates a hash of a password so you don't have to store the actual password.
 
-- [ ] What does bcrypt do to slow down attackers?
+- [ ] What does bcrypt do to slow down attackers? An attacker would have to sit there and brute force for quite a while to decrypt a hash... 
 
-- [ ] What are the three parts of the JSON Web Token? Header / Payload / Verify
+- [ ] What are the three parts of the JSON Web Token? Header / Payload / Signature
 
 ## Minimum Viable Product
 
@@ -60,5 +60,5 @@ Implement an User Authentication System. Hash user's passwords before saving the
 
 Build a front end to show the jokes.
 
-- [ ] Add a React client that connects to the API and has pages for `Sign Up`, `Sign In` and showing a list of `Jokes`.
-- [ ] Once you have the functionality down, style it!
+- [x] Add a React client that connects to the API and has pages for `Sign Up`, `Sign In` and showing a list of `Jokes`.
+- [x] Once you have the functionality down, style it!
